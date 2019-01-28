@@ -1,0 +1,47 @@
+
+#SignUpPage Object Property
+E_MYACC=spnMyAcc:ID
+E_REG=//a[@class='btn_register RegInHome']:XPATH
+E_EM_SIGNUP=//input[@id='txtEmail']:XPATH
+E_REGB=btn_Login:NAME
+E_OTP=//input[@id='otptxt']:XPATH
+E_PWD_SIGNUP=pass:ID
+E_CPWD_SIGNUP=confirmpass:ID
+E_SUBMIT=//div[@id='hid1']//input[@value='Submit']:XPATH
+
+#MyProfilePage Object Property
+LOGIN=loginid:ID
+PASSWORD=password:ID
+LOGINB=buttonLog:CLASS
+PROFILEB=//span[contains(text(),'My Profile')]:XPATH
+TITLE=title:ID
+FIRSTNAME=exampleInputEmail1:ID
+LASTNAME=exampleInputEmail1L:ID
+ADDRESS=prAddress:ID
+CITY=PrCity:ID
+STATE=PrState:ID
+ZIP=PrZip:NAME
+COUNTRY=select-txtn-travel:CLASS
+DAY=Dobday:NAME
+MONTH=Dobmonth:NAME
+YEAR=Dobyear:NAME
+PASSPORTNO=PassporNo:ID
+PASSPORTISSUE=selectPassportIssuingCountry:ID
+HOMEAIRPORT=HomeAirport:ID
+SEATTYPE=//select[@id='seatType']:XPATH
+MEALTYPE=//select[@id='MealType']:XPATH
+AIRLINE=prdefineair:ID
+AIRLINENAME=textAirlinnm1:ID
+FLYERNO=txtflyerno1:ID
+CHANGEPASSWORD=ChangePassword:ID
+GENERATEOTP=//div[@class='main_frm_f1']//input[@value='Generate OTP']:XPATH
+OTP=OtpID:ID
+RESEND=//span[@ng-click='resendEmailOtp();']:XPATH
+NEWPASSWORD=newpass:ID
+CPASSWORD=confirmpass:ID
+VERIFY=//div[@class='main_frm_f1']//input[@value='Verify OTP']:XPATH
+PHOTO=//input[@id='selectUserProfile']:XPATH
+CROSS=//div[@class='main_frm_f1']//img:XPATH
+SAVEPROFILE=//input[@value='Save profile']:XPATH
+HOMEPAGE=//i[@class='fa fa-plane']:XPATH
+
